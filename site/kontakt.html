@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Samuel's Quietscheenten Onlineshop</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" referrerpolicy="no-referrer">
+    <link rel="icon" type="image/png" href="assets/duck.jpeg">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Samuel's Quietscheenten Onlineshop</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="ueber-uns.html">Über Uns</a></li>
+            <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+        </ul>
+    </header>
+
+    <main class="page-main">
+        <section class="page-hero">
+            <div class="page-hero-copy">
+                <p>Fragen oder Anregungen?</p>
+                <h1>Schreib uns. Wir sind ganz ohr.</h1>
+                <p>Ob Geschenkidee, Frage zu einer Ente oder einfach ein freundliches Moin: Wir freuen uns auf deine Nachricht.</p>
+                <a href="#nachricht" class="button">Nachricht schreiben</a>
+            </div>
+            <img src="https://images.unsplash.com/photo-1785529758463-5a77d1f4d3f3?auto=format&fit=crop&w=1200&q=85" alt="Gelbe Quietscheente im blauen Pool">
+        </section>
+
+        <section class="content-section contact-layout" id="nachricht">
+            <div class="contact-details">
+                <h2>Schreib uns</h2>
+                <p>Wir melden uns in der Regel innerhalb von zwei Werktagen bei dir. Versprochen – keine Ente lässt dich hängen.</p>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope contact-icon" aria-hidden="true"></i>
+                    <p><strong>E-Mail</strong><br><a href="mailto:moin@samuel-enten.de">moin@samuel-enten.de</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone contact-icon" aria-hidden="true"></i>
+                    <p><strong>Telefon</strong><br><a href="tel:+494055501234">040 555 012 34</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-clock contact-icon" aria-hidden="true"></i>
+                    <p><strong>Erreichbar</strong><br>Montag bis Freitag, 9:00–16:00 Uhr</p>
+                </div>
+            </div>
+
+            <form class="contact-form" action="mailto:moin@samuel-enten.de" method="post" enctype="text/plain">
+                <label for="name">Dein Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+
+                <label for="email">Deine E-Mail-Adresse</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+
+                <label for="message">Deine Nachricht</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="button">Nachricht abschicken</button>
+                <p class="contact-hint">Beim Abschicken öffnet sich dein Mailprogramm mit deiner Nachricht.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <span class="logo">Samuel's Quietscheenten Onlineshop</span>
+        <p class="about-text">Hochwertige Quietscheenten für Kinder, Sammler und alle, die ein bisschen mehr Freude im Alltag gebrauchen können.</p>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="ueber-uns.html">Über Uns</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <p class="legal-notice">&copy; 2026 Samuel's Quietscheenten Onlineshop GmbH. Alle Rechte vorbehalten.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

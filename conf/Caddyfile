@@ -1,0 +1,10 @@
+localhost
+
+handle /api/* {
+	reverse_proxy backend:5000
+}
+
+handle {
+	root * /usr/share/caddy
+	file_server
+}

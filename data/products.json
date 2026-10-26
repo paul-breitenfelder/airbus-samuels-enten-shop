@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Pool-Ente",
+    "description": "Die sonnige Quietscheente für entspannte Runden im Wasser.",
+    "price": 9.99,
+    "image": "https://images.unsplash.com/photo-1652441547536-f6edb2fc5206?auto=format&fit=crop&w=900&q=80",
+    "imageCredit": "Foto: Susan Weber via Unsplash",
+    "sourceUrl": "https://unsplash.com/photos/a-yellow-rubber-duck-floating-on-water-cj0Bo3jvYNE"
+  },
+  {
+    "id": 2,
+    "name": "Klassische Badeente",
+    "description": "Der zeitlose Begleiter für Badewanne, Schreibtisch und Sammlung.",
+    "price": 6.49,
+    "image": "https://images.unsplash.com/photo-1582845512747-e42001c95638?auto=format&fit=crop&w=900&q=80",
+    "imageCredit": "Foto: Timothy Dykes via Unsplash",
+    "sourceUrl": "https://unsplash.com/photos/yellow-rubber-duck-on-white-background-LhqLdDPcSV8"
+  },
+  {
+    "id": 3,
+    "name": "Sommer-Ente",
+    "description": "Für kleine und große Abenteuer – schwimmt überall mit.",
+    "price": 12.95,
+    "image": "https://images.unsplash.com/photo-1785529758463-5a77d1f4d3f3?auto=format&fit=crop&w=900&q=80",
+    "imageCredit": "Foto: Debby Hudson via Unsplash",
+    "sourceUrl": "https://unsplash.com/photos/a-yellow-rubber-duck-floats-in-a-blue-swimming-pool-60x5CGvGb_s"
+  }
+]
